@@ -1,4 +1,36 @@
 *{
     margin:0px;
     pading:0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    padding: 1rem 0rem;
+    height: 100dvh;
+    width: 100%;
+    background-image: linear-gradient(120deg,#fcc201 0%, #d12355 100%);
+}
+
+/* h1{} */
+
+.menu{
+    
+} 
+
+ h1{
+    text-align: center;
+font-size: clamp(2rem,4vw,3.5rem);
+color:#ffffff
+ } 
+
+.logo_remover {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   margin: 2rem 0rem;
+} 
+
+.logo_remover img{
+ border-radius: 50%;
+ width: 28rem;
+} 
